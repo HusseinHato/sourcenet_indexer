@@ -31,7 +31,6 @@ pub struct StoredSmartContractObject {
     pub version: i64,
     pub digest: String,
     pub content_type: Option<String>,
-    pub data: Option<serde_json::Value>,
     pub checkpoint_sequence_number: i64,
     pub transaction_digest: String,
 }
